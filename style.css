@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primaryColor: hsl(300, 43%, 22%);
+    --secondaryColor: hsl(333, 80%, 67%);
+    --thirdColor: hsl(303, 10%, 53%);
+    --fourthColor: hsl(300, 24%, 96%);
+    --fifthColor: hsl(0, 0%, 100%);
+}
+body {
+    width: 100%;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    background: no-repeat url('./images/bg-pattern-top-mobile.svg'),
+    no-repeat right bottom url('./images/bg-pattern-bottom-mobile.svg');
+}
+article {
+    width: 100%;
+}
+.container {
+    width: 100%;
+    min-height: 600px;
+    padding: 80px 15px 0;
+    text-align: center;
+}
+.top-section .heading h2 {
+    color: var(--primaryColor);
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+.top-section .heading p {
+    color: var(--thirdColor);
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+.top-section .reviews .col {
+    background-color: var(--fourthColor);
+    margin-bottom: 10px;
+    padding: 15px 0;
+    border-radius: 5px;
+} 
+.top-section .reviews .col p {
+    color: var(--primaryColor);
+    font-weight: 700;
+    margin-top: 8px;
+}
+.bot-section {
+    margin-top: 50px;
+}
+.bot-section .col {
+    background-color: var(--primaryColor);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 30px 15px;
+    text-align: left;
+}
+.bot-section .col img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    vertical-align: top;
+}
+.bot-section .col p {
+    display: inline-block;
+    color: var(--fifthColor);
+    font-size: .8rem;
+}
+.bot-section .col p span {
+    color: var(--secondaryColor);
+    opacity: .5;
+}
+.bot-section .col blockquote {
+    margin-top: 15px;
+    color: var(--fourthColor);
+    line-height: 2;
+    font-size: .8rem;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+/*media for large screen*/
+@media only screen and (min-width: 1200px) {
+    .container {
+        padding-left: 170px;
+        padding-right: 170px;
+    }
+    .top-section {
+        display: flex;
+    }
+    .top-section .heading h2 {
+        font-size: 3.4rem;
+    }
+    .reviews .col p, .reviews .col img {
+        display: inline-block;
+    }
+    .reviews .col p {
+        margin-left: 10px;
+    }
+    .heading {
+        text-align: left;
+    }
+    .heading, .reviews {
+        width: 100%;
+    }
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .reviews .col {
+        width: 400px;
+        padding: 15px !important;
+    }
+    .reviews .col:nth-child(2) {
+        align-self: center;
+    }
+    .reviews .col:last-child {
+        align-self: flex-end;
+    }
+    .bot-section {
+        display: flex;
+        height: 270px;
+        margin-top: 20px;
+    }
+    .bot-section .col {
+        height: 220px;
+        margin: 15px;
+    }
+    .bot-section .col:nth-child(2) {
+        align-self: center;
+    }
+    .bot-section .col:last-child {
+        align-self: flex-end;
+    }
+    }
+
