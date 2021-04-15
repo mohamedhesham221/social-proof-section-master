@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/html-css-vkBxv70u1)
+- Live Site URL: [live site](https://mohamedhesham221.github.io/social-proof-section-master/)
 
 ### Built with
 
@@ -30,6 +30,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Mohamed Hesham]
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- linkedin - [@yourusername](https://www.twitter.com/yourusername)
+- [Mohamed Hesham]
+- Frontend Mentor - [@mohamedhesham221](https://www.frontendmentor.io/profile/mohamedhesham221)
+- linkedin - (https://www.linkedin.com/in/mohamed-hesham-b7611618a/)
